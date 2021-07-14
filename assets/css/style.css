@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+.fill-height {
+    min-height: 100%;
+    height: auto !important; /* cross-browser */
+    height: 100%; /* cross-browser */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    background-color: white;
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.main-content h4 {
+    text-align: center;
+}
+
+.select-fp {
+    margin: 15px 0 15px 0 !important;
+    border: 1px solid black;
+}
